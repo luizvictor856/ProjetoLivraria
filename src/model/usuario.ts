@@ -4,7 +4,7 @@ export class Usuario {
   nome: string;
   cpf: string;
   email: string;
-  categoria: string; // Ex: "Aluno", "Professor", "Bibliotecário"
+  categoria: string; 
   curso: string;
   status: StatusUsuario;
 
