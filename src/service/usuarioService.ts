@@ -1,4 +1,4 @@
-import { Usuario } from "../model";
+import { Usuario } from "../model/usuario";
 import { UsuarioRepository } from "../repository/usuarioRepository";
 export class UsuarioService {
   private repo = UsuarioRepository.getInstance();
